@@ -1,0 +1,18 @@
+# Dataset images (too large)
+monet_jpg/
+photo_jpg/
+
+# Virtual environment
+.venv/
+
+# Ignore ALL checkpoints first, then allow specific ones
+checkpoints/*
+!checkpoints/G_epoch_30.pth
+!checkpoints/F_epoch_30.pth
+!checkpoints/D_Y_epoch_30.pth
+!checkpoints/D_X_epoch_30.pth
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
